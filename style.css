@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+}
+.sidebar{
+    /* background-color: grey; */
+    /* width: 450px; */
+    /* position: absolute; */
+    height:100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition:transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 72px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{ 
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width:90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /* background-color: purple; */
+    padding: 0 34px;
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 60px;
+}
+.about{
+    font-size: 55px;
+}
+.moreabout{
+    font-size: 19px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.button{
+    margin-top:24px;
+}
+.btn{
+    padding: 11px 24px;
+    border-radius: 50px;
+    color:white;
+    background-color: purple;
+    font-weight: bold;
+    font-size: 21px;
+    margin:0.3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: purple;
+}
+.devPic img{
+    height: 58vh;
+    
+}
+
+.contactForm{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 34px;
+    padding-top: 144px;
+}
+
+.contactForm h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.contactForm form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactForm form div input{
+    width:16vw;
+    border-radius:5px;
+    margin:6px 0;
+    padding:3px;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: brown;
+    margin:0 5px;
+}
+
+#form-check{
+    flex-direction: row;
+
+}
+
+#form-check-input{
+    width:30px;
+    margin:3px 0;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 15%;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .sidebarGo{
+    transform:translate(-443px,0px);
+    position:absolute;
+  }
+
+  .hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 27px;
+    left: 35px;
+  }
+
+  .cross{
+    margin-left: 170px;
+  }
